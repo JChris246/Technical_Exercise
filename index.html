@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en"> 
+    <head>
+        <title>Simple Ecommerce Site</title>
+        <meta charset="utf-8">
+		<meta name="description" content="Simple ecommerce site">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="bg-gradient-to-r from-blue-400 to-blue-600">
+        <!-- header -->
+        <header>
+            <div class="bg-gray-800 py-2 flex md:flex-row flex-col">
+                <input name="search" type="search" placeholder="Search" class="rounded-full md:rounded-r-none py-1 px-2 ml-2 mb-2 mx-2 md:mr-0">
+                <button class="rounded-full md:rounded-l-none mx-2 md:mx-0 py-1 pl-2 pr-4 bg-blue-600 text-white mb-2">Search</button>
+                <a href=""><button class="rounded-full border-2 border-blue-600 text-white px-4 py-1 hover:bg-blue-600 mb-2 ml-2">My Cart</button></a>
+            </div>
+            <div class="bg-gray-700 flex md:flex-row flex-col">
+                <button class="px-4 py-2 my-2 mx-1 border-none md:border-solid md:border-b-2 hover:border-blue-600 text-white">Categories</button>
+                <button class="px-4 py-2 my-2 mx-1 border-none md:border-solid md:border-b-2 hover:border-blue-600 text-white">Deals</button>
+                <button class="px-4 py-2 my-2 mx-1 border-none md:border-solid md:border-b-2 hover:border-blue-600 text-white">What's New</button>
+                <button class="px-4 py-2 my-2 mx-1 border-none md:border-solid md:border-b-2 hover:border-blue-600 text-white">Gift Cards</button>
+            </div>
+        </header>
+        <!-- end header -->
+
+        <!-- content -->
+        <div id="content">
+            <div class="flex flex-col md:flex-row md:m-4 m-2">
+                <div class="rounded bg-white m-4 pt-2">
+                    <span class="px-2 font-bold">Laptops</span>
+                    <img src="imgs/71vvXGmdKWL._AC_SX679_.jpg" class="p-8">
+                </div>
+
+                <div class="rounded bg-white m-4 pt-2">
+                    <span class="px-2 font-bold">Computer Accessories</span>
+                    <img src="imgs/1tb_western_digital_elements_usb_05_l.jpg" class="p-8">
+                </div>
+
+                <div class="rounded bg-white m-4 pt-2">
+                    <span class="px-2 font-bold">Consoles</span>
+                    <img src="imgs/61JnrafZ7zL._AC_SL1457_.jpg" class="p-8">
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row md:m-4 m-2">
+                <div class="rounded bg-white m-4 pt-2">
+                    <span class="px-2 font-bold">Desktops</span>
+                    <img src="imgs/614QyNf97oL._AC_SL1500_.jpg" class="p-8">
+                </div>
+
+                <div class="rounded bg-white m-4 pt-2">
+                    <span class="px-2 font-bold">Tablets</span>
+                    <img src="imgs/61NfcHUmxBL._AC_SX679_.jpg" class="p-8">
+                </div>
+
+                <div class="rounded bg-white m-4 pt-2">
+                    <span class="px-2 font-bold">Phones</span>
+                    <img src="imgs/91SnnNoQdTL._AC_SX466_.jpg" class="p-8">
+                </div>
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- footer -->
+        <footer class="mt-20 bg-gray-800">
+            <div class="flex flex-col md:flex-row m-4 mb-0">
+                <div class="p-4">
+                    <span class="text-gray-50">Help</span><br/>
+                    <span class="text-gray-400"><a href="" class="hover:text-gray-300">Customer Service</a>, <a href="" class="hover:text-gray-300">Disputes & Reports</a>, <a href="" class="hover:text-gray-300">Buyer Protection</a>, <a href="" class="hover:text-gray-300"></a>Report IPR infringement</a></span>
+                </div>
+                <div class="p-4">
+                    <span class="text-gray-50">Choose Language</span><br/>
+                    <span class="text-gray-400"><a href="" class="hover:text-gray-300">Russian</a>, <a href="" class="hover:text-gray-300">Portuguese</a>, <a href="" class="hover:text-gray-300">Spanish</a>, <a href="" class="hover:text-gray-300">French, <a href="" class="hover:text-gray-300">German</a>, <a href="" class="hover:text-gray-300">Italian</a>, <a href="" class="hover:text-gray-300">Dutch</a>, <a href="" class="hover:text-gray-300">Turkish</a>, <a href="">Japanese</a></span>
+                </div>
+            </div>
+
+            <div class="text-gray-400 flex flex-col md:flex-row mx-4">
+                <div class="p-4 pt-0 md:mr-32">
+                    <span class="text-gray-50">Resources</span><br/>
+                    <a href="" class="hover:text-gray-300">Associate Program</a><br/>
+                    <a href="" class="hover:text-gray-300">Careers</a><br/>
+                    <a href="" class="hover:text-gray-300">Site Map</a><br/>
+                    <a href="" class="hover:text-gray-300">Glossary of Terms</a><br/>
+                    <a href="" class="hover:text-gray-300">About</a><br/>
+                </div>
+
+                <div class="p-4 pt-0 md:mr-32">
+                    <span class="text-gray-50">My Account</span><br/>
+                    <a href="" class="hover:text-gray-300">Login / Register</a><br/>
+                    <a href="" class="hover:text-gray-300">Order History</a><br/>
+                    <a href="" class="hover:text-gray-300">Returns History</a><br/>
+                    <a href="" class="hover:text-gray-300">Wish List</a><br/>
+                    <a href="" class="hover:text-gray-300">Subscription Orders</a><br/>
+                </div>
+            </div>
+
+            <hr class="bg-gray-400"/>
+            <div class="p-4 mx-4">
+                <span class="text-gray-400"><a href="" class="hover:text-gray-300">Terms of Use</a> | <a href="" class="hover:text-gray-300">Privacy Policy</a> | <a href="" class="hover:text-gray-300">Interest-Based Ads</a>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </body>
+</html>
